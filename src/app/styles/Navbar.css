@@ -1,0 +1,38 @@
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 3.5%;
+  margin-top: 3rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.logo p {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.partition p {
+  color: #696565;
+  font-weight: lighter;
+}
+
+.pages {
+  display: flex;
+  align-items: center;
+  margin-left: 1.5rem;
+  gap: 1.5rem;
+}
+
+.pages p {
+  cursor: pointer;
+}
+
+.pages p:hover {
+  color: #ccc;
+}
